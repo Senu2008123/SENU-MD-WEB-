@@ -82,7 +82,7 @@ router.get("/", async (req, res) => {
             );
 
             const sid = `*Senura Lakshan [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*https://wa.me/+94769714218?text=HI_SWEETY_BOT•OWNER*\n\n*You can join my whatsapp Channel\n\n*https://whatsapp.com/channel/0029Vb5P7Bc4SpkCHXqRL523*`;
-            const mg = `🛑 * I AM SENU Do not share this code to anyone* 🛑`;
+            const mg = `🛑 *I AM SENU Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
                 url: "https://raw.githubusercontent.com/Senu2008123/Bot-help/refs/heads/main/WhatsApp%20Image%202025-06-19%20at%2001.02.53.jpeg",

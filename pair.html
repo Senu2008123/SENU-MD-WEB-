@@ -40,20 +40,20 @@
     }
 
     #text {
-      color: #ffffff; /* Set the text color to black (#000) */
+      color: #66cdaa; /* Set the text color to black (#000) */
     }
 
     .input-container input {
-      color: #ffffff; /* Set the text color to black (#000) */
+      color: #00fa9a; /* Set the text color to black (#000) */
     }
 
     .centered-text {
-      color: #ffffff; /* Set the text color to black (#000) */
+      color: ##adff2f; /* Set the text color to black (#000) */
     }
 
     .input-container {
       display: flex;
-      background: #ffffff; /* Update background color */
+      background: #800020; /* Update background color */
       border-radius: 1rem;
       padding: 0.3rem;
       gap: 0.3rem;
@@ -63,12 +63,12 @@
 
     .input-container input {
       border-radius: 0.8rem 0 0 0.8rem;
-      background: #000000; /* Update background color */
+      background: #009698; /*  */
       width: 89%;
       flex-basis: 75%;
       padding: 1rem;
       border: none;
-      border-left: 2px solid #075e54; /* Update border color */
+      border-left: 2px solid #ffa500; /* Update border color */
       color: #ecf0f1; /* Set text color to light grey */
       transition: all 0.2s ease-in-out;
     }
@@ -82,7 +82,7 @@
     .input-container button {
       flex-basis: 25%;
       padding: 1rem;
-      background: #25d366; /* Update background color */
+      background: #ffdab9; /* Update background color */
       font-weight: 900;
       letter-spacing: 0.3rem;
       text-transform: uppercase;
@@ -150,7 +150,7 @@
             <h6>🔢 Enter your number with country code. Senura WEB PAIR</h6>
             <div class="input-container">
               <input placeholder="+94704xxxxxx" type="number" id="number" placeholder="❗ Enter your phone number with country code, Senura WEB PAIR" name="">
-              <button id="submit">Submit ROBIN</button>
+              <button id="submit">Submit Senu</button>
             </div>
             <!-- Add the loading spinner -->
             <div id="loading-spinner">
@@ -178,7 +178,7 @@
       let text = document.getElementById("copy").innerText;
       let obj = document.getElementById("copy");
       await navigator.clipboard.writeText(obj.innerText.replace('CODE: ', ''));
-      obj.innerText = "✔️ COPIED";
+      obj.innerText = "✔️ Senura COPIED";
       obj.style = "color:blue;font-weight:bold";
       obj.size = "5";
       setTimeout(() => {
